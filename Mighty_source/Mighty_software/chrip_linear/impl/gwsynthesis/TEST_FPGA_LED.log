@@ -1,0 +1,44 @@
+GowinSynthesis start
+Running parser ...
+Analyzing VHDL file 'E:\projects_fpga\21001\21001_FPGA_DAC_V2\chrip_linear\src\TOP.vhd'
+Analyzing entity 'top'("E:\projects_fpga\21001\21001_FPGA_DAC_V2\chrip_linear\src\TOP.vhd":8)
+Analyzing architecture 'behavioral'("E:\projects_fpga\21001\21001_FPGA_DAC_V2\chrip_linear\src\TOP.vhd":25)
+Analyzing VHDL file 'E:\projects_fpga\21001\21001_FPGA_DAC_V2\chrip_linear\src\chirp_gen.vhd'
+Analyzing entity 'chirp_gen'("E:\projects_fpga\21001\21001_FPGA_DAC_V2\chrip_linear\src\chirp_gen.vhd":12)
+Analyzing architecture 'behavioral'("E:\projects_fpga\21001\21001_FPGA_DAC_V2\chrip_linear\src\chirp_gen.vhd":32)
+Analyzing VHDL file 'E:\projects_fpga\21001\21001_FPGA_DAC_V2\chrip_linear\src\chirp_gen_nco.vhd'
+Analyzing entity 'chirp_gen_nco'("E:\projects_fpga\21001\21001_FPGA_DAC_V2\chrip_linear\src\chirp_gen_nco.vhd":12)
+Analyzing architecture 'behavioral'("E:\projects_fpga\21001\21001_FPGA_DAC_V2\chrip_linear\src\chirp_gen_nco.vhd":22)
+Analyzing VHDL file 'E:\projects_fpga\21001\21001_FPGA_DAC_V2\chrip_linear\src\gowin_osc\gowin_osc.vhd'
+Analyzing entity 'gowin_osc'("E:\projects_fpga\21001\21001_FPGA_DAC_V2\chrip_linear\src\gowin_osc\gowin_osc.vhd":12)
+Analyzing architecture 'behavioral'("E:\projects_fpga\21001\21001_FPGA_DAC_V2\chrip_linear\src\gowin_osc\gowin_osc.vhd":18)
+Analyzing VHDL file 'E:\projects_fpga\21001\21001_FPGA_DAC_V2\chrip_linear\src\tlv5619.vhd'
+Analyzing entity 'tlv5619'("E:\projects_fpga\21001\21001_FPGA_DAC_V2\chrip_linear\src\tlv5619.vhd":11)
+Analyzing architecture 'behavioral'("E:\projects_fpga\21001\21001_FPGA_DAC_V2\chrip_linear\src\tlv5619.vhd":25)
+Processing 'top(Behavioral)'("E:\projects_fpga\21001\21001_FPGA_DAC_V2\chrip_linear\src\TOP.vhd":8)
+Processing 'Gowin_OSC(Behavioral)'("E:\projects_fpga\21001\21001_FPGA_DAC_V2\chrip_linear\src\gowin_osc\gowin_osc.vhd":12)
+Processing 'tlv5619(Behavioral)'("E:\projects_fpga\21001\21001_FPGA_DAC_V2\chrip_linear\src\tlv5619.vhd":11)
+'others' clause is never selected("E:\projects_fpga\21001\21001_FPGA_DAC_V2\chrip_linear\src\tlv5619.vhd":68)
+Processing 'chirp_gen(freq_h="111111111111",freq_l="000000000000",baud_rate="00000000100000110001001001101110")(Behavioral)'("E:\projects_fpga\21001\21001_FPGA_DAC_V2\chrip_linear\src\chirp_gen.vhd":12)
+'others' clause is never selected("E:\projects_fpga\21001\21001_FPGA_DAC_V2\chrip_linear\src\chirp_gen.vhd":212)
+Processing 'chirp_gen_nco(Behavioral)'("E:\projects_fpga\21001\21001_FPGA_DAC_V2\chrip_linear\src\chirp_gen_nco.vhd":12)
+NOTE  (EX0101) : Current top module is "top"
+[5%] Running netlist conversion ...
+Running device independent optimization ...
+[10%] Optimizing Phase 0 completed
+[15%] Optimizing Phase 1 completed
+[25%] Optimizing Phase 2 completed
+Running inference ...
+[30%] Inferring Phase 0 completed
+[40%] Inferring Phase 1 completed
+[50%] Inferring Phase 2 completed
+[55%] Inferring Phase 3 completed
+Running technical mapping ...
+[60%] Tech-Mapping Phase 0 completed
+[65%] Tech-Mapping Phase 1 completed
+[75%] Tech-Mapping Phase 2 completed
+[80%] Tech-Mapping Phase 3 completed
+[90%] Tech-Mapping Phase 4 completed
+[95%] Generate netlist file "E:\projects_fpga\21001\21001_FPGA_DAC_V2\chrip_linear\impl\gwsynthesis\TEST_FPGA_LED.vg" completed
+[100%] Generate report file "E:\projects_fpga\21001\21001_FPGA_DAC_V2\chrip_linear\impl\gwsynthesis\TEST_FPGA_LED_syn.rpt.html" completed
+GowinSynthesis finish

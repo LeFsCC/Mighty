@@ -1,0 +1,15 @@
+<?xml version="1" encoding="UTF-8"?>
+<!DOCTYPE gowin-fpga-project>
+<Project>
+    <Template>FPGA</Template>
+    <Version>5</Version>
+    <Device name="GW1N-9C" pn="GW1N-UV9QN48C6/I5">gw1n9c-003</Device>
+    <FileList>
+        <File path="src/TOP.vhd" type="file.vhdl" enable="1"/>
+        <File path="src/chirp_gen.vhd" type="file.vhdl" enable="1"/>
+        <File path="src/chirp_gen_nco.vhd" type="file.vhdl" enable="1"/>
+        <File path="src/gowin_osc/gowin_osc.vhd" type="file.vhdl" enable="1"/>
+        <File path="src/tlv5619.vhd" type="file.vhdl" enable="1"/>
+        <File path="src/TEST_FPGA_LED.cst" type="file.cst" enable="1"/>
+    </FileList>
+</Project>

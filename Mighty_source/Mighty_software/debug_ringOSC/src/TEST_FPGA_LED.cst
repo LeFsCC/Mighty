@@ -1,0 +1,46 @@
+//Copyright (C)2014-2021 Gowin Semiconductor Corporation.
+//All rights reserved. 
+//File Title: Physical Constraints file
+//GOWIN Version: 1.9.7.06Beta
+//Part Number: GW1N-UV9QN48C6/I5
+//Device: GW1N-9C
+//Created Time: Fri 10 15 22:37:11 2021
+
+IO_LOC "o_output_en" 16;
+IO_PORT "o_output_en" IO_TYPE=LVCMOS33 PULL_MODE=UP DRIVE=8;
+IO_LOC "o_clk" 46;
+IO_PORT "o_clk" IO_TYPE=LVCMOS33 PULL_MODE=UP DRIVE=8;
+IO_LOC "o_pdn" 30;
+IO_PORT "o_pdn" IO_TYPE=LVCMOS33 PULL_MODE=UP DRIVE=8;
+IO_LOC "o_ldacn" 31;
+IO_PORT "o_ldacn" IO_TYPE=LVCMOS33 PULL_MODE=UP DRIVE=8;
+IO_LOC "o_wen" 32;
+IO_PORT "o_wen" IO_TYPE=LVCMOS33 PULL_MODE=UP DRIVE=8;
+IO_LOC "o_csn" 33;
+IO_PORT "o_csn" IO_TYPE=LVCMOS33 PULL_MODE=UP DRIVE=8;
+IO_LOC "o_dac_data[11]" 29;
+IO_PORT "o_dac_data[11]" IO_TYPE=LVCMOS33 PULL_MODE=UP DRIVE=8;
+IO_LOC "o_dac_data[10]" 28;
+IO_PORT "o_dac_data[10]" IO_TYPE=LVCMOS33 PULL_MODE=UP DRIVE=8;
+IO_LOC "o_dac_data[9]" 17;
+IO_PORT "o_dac_data[9]" IO_TYPE=LVCMOS33 PULL_MODE=UP DRIVE=8;
+IO_LOC "o_dac_data[8]" 18;
+IO_PORT "o_dac_data[8]" IO_TYPE=LVCMOS33 PULL_MODE=UP DRIVE=8;
+IO_LOC "o_dac_data[7]" 19;
+IO_PORT "o_dac_data[7]" IO_TYPE=LVCMOS33 PULL_MODE=UP DRIVE=8;
+IO_LOC "o_dac_data[6]" 20;
+IO_PORT "o_dac_data[6]" IO_TYPE=LVCMOS33 PULL_MODE=UP DRIVE=8;
+IO_LOC "o_dac_data[5]" 21;
+IO_PORT "o_dac_data[5]" IO_TYPE=LVCMOS33 PULL_MODE=UP DRIVE=8;
+IO_LOC "o_dac_data[4]" 22;
+IO_PORT "o_dac_data[4]" IO_TYPE=LVCMOS33 PULL_MODE=UP DRIVE=8;
+IO_LOC "o_dac_data[3]" 23;
+IO_PORT "o_dac_data[3]" IO_TYPE=LVCMOS33 PULL_MODE=UP DRIVE=8;
+IO_LOC "o_dac_data[2]" 24;
+IO_PORT "o_dac_data[2]" IO_TYPE=LVCMOS33 PULL_MODE=UP DRIVE=8;
+IO_LOC "o_dac_data[1]" 35;
+IO_PORT "o_dac_data[1]" IO_TYPE=LVCMOS33 PULL_MODE=UP DRIVE=8;
+IO_LOC "o_dac_data[0]" 34;
+IO_PORT "o_dac_data[0]" IO_TYPE=LVCMOS33 PULL_MODE=UP DRIVE=8;
+IO_LOC "o_led" 13;
+IO_PORT "o_led" IO_TYPE=LVCMOS33 PULL_MODE=UP DRIVE=8;

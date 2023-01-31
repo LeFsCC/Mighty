@@ -1,0 +1,70 @@
+[
+ {
+  "InstFile" : "E:/projects_fpga/21001/21001_FPGA_DAC_V2/chrip_non_linear/src/TOP.vhd",
+  "InstLine" : 8,
+  "InstName" : "top",
+  "ModuleFile" : "E:/projects_fpga/21001/21001_FPGA_DAC_V2/chrip_non_linear/src/TOP.vhd",
+  "ModuleLine" : 8,
+  "ModuleName" : "top",
+  "SubInsts" : [
+   {
+    "InstFile" : "E:/projects_fpga/21001/21001_FPGA_DAC_V2/chrip_non_linear/src/TOP.vhd",
+    "InstLine" : 93,
+    "InstName" : "Gowin_OSC_u1",
+    "ModuleFile" : "E:/projects_fpga/21001/21001_FPGA_DAC_V2/chrip_non_linear/src/gowin_osc/gowin_osc.vhd",
+    "ModuleLine" : 12,
+    "ModuleName" : "Gowin_OSC"
+   },
+   {
+    "InstFile" : "E:/projects_fpga/21001/21001_FPGA_DAC_V2/chrip_non_linear/src/TOP.vhd",
+    "InstLine" : 114,
+    "InstName" : "tlv5619_u1",
+    "ModuleFile" : "E:/projects_fpga/21001/21001_FPGA_DAC_V2/chrip_non_linear/src/tlv5619.vhd",
+    "ModuleLine" : 11,
+    "ModuleName" : "tlv5619"
+   },
+   {
+    "InstFile" : "E:/projects_fpga/21001/21001_FPGA_DAC_V2/chrip_non_linear/src/TOP.vhd",
+    "InstLine" : 128,
+    "InstName" : "chirp_gen_u1",
+    "ModuleFile" : "E:/projects_fpga/21001/21001_FPGA_DAC_V2/chrip_non_linear/src/chirp_gen.vhd",
+    "ModuleLine" : 12,
+    "ModuleName" : "chirp_gen",
+    "SubInsts" : [
+     {
+      "InstFile" : "E:/projects_fpga/21001/21001_FPGA_DAC_V2/chrip_non_linear/src/chirp_gen.vhd",
+      "InstLine" : 228,
+      "InstName" : "dac_sampling_nco_u1",
+      "ModuleFile" : "E:/projects_fpga/21001/21001_FPGA_DAC_V2/chrip_non_linear/src/chirp_gen_nco.vhd",
+      "ModuleLine" : 12,
+      "ModuleName" : "chirp_gen_nco"
+     },
+     {
+      "InstFile" : "E:/projects_fpga/21001/21001_FPGA_DAC_V2/chrip_non_linear/src/chirp_gen.vhd",
+      "InstLine" : 237,
+      "InstName" : "baud_rate_nco_u1",
+      "ModuleFile" : "E:/projects_fpga/21001/21001_FPGA_DAC_V2/chrip_non_linear/src/chirp_gen_nco.vhd",
+      "ModuleLine" : 12,
+      "ModuleName" : "chirp_gen_nco"
+     }
+    ]
+   },
+   {
+    "InstFile" : "E:/projects_fpga/21001/21001_FPGA_DAC_V2/chrip_non_linear/src/TOP.vhd",
+    "InstLine" : 144,
+    "InstName" : "rom_non_linear_mapper_u1",
+    "ModuleFile" : "E:/projects_fpga/21001/21001_FPGA_DAC_V2/chrip_non_linear/src/rom_non_linear_mapper.vhd",
+    "ModuleLine" : 8,
+    "ModuleName" : "rom_non_linear_mapper"
+   }
+  ]
+ },
+ {
+  "InstFile" : "E:/projects_fpga/21001/21001_FPGA_DAC_V2/chrip_non_linear/src/gowin_prom/gowin_prom.vhd",
+  "InstLine" : 12,
+  "InstName" : "Gowin_pROM",
+  "ModuleFile" : "E:/projects_fpga/21001/21001_FPGA_DAC_V2/chrip_non_linear/src/gowin_prom/gowin_prom.vhd",
+  "ModuleLine" : 12,
+  "ModuleName" : "Gowin_pROM"
+ }
+]

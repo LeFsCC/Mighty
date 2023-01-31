@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE gowin-synthesis-project>
+<Project>
+    <Version>beta</Version>
+    <Device id="GW1N-9C" package="QFN48" speed="6" partNumber="GW1N-UV9QN48C6/I5"/>
+    <FileList>
+        <File path="E:\projects_fpga\21001\21001_FPGA_DAC_V2\chrip_linear\src\TOP.vhd" type="vhdl"/>
+        <File path="E:\projects_fpga\21001\21001_FPGA_DAC_V2\chrip_linear\src\chirp_gen.vhd" type="vhdl"/>
+        <File path="E:\projects_fpga\21001\21001_FPGA_DAC_V2\chrip_linear\src\chirp_gen_nco.vhd" type="vhdl"/>
+        <File path="E:\projects_fpga\21001\21001_FPGA_DAC_V2\chrip_linear\src\gowin_osc\gowin_osc.vhd" type="vhdl"/>
+        <File path="E:\projects_fpga\21001\21001_FPGA_DAC_V2\chrip_linear\src\tlv5619.vhd" type="vhdl"/>
+    </FileList>
+    <OptionList>
+        <Option type="disable_insert_pad" value="0"/>
+        <Option type="dsp_balance" value="0"/>
+        <Option type="looplimit" value="2000"/>
+        <Option type="output_file" value="E:\projects_fpga\21001\21001_FPGA_DAC_V2\chrip_linear\impl\gwsynthesis\TEST_FPGA_LED.vg"/>
+        <Option type="print_all_synthesis_warning" value="0"/>
+        <Option type="ram_rw_check" value="1"/>
+        <Option type="verilog_language" value="verilog-2001"/>
+        <Option type="vhdl_language" value="vhdl-1993"/>
+    </OptionList>
+</Project>

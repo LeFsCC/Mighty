@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Module name="top" Register="17" Alu="14" Lut="7">
+    <SubModule name="Gowin_OSC_u1"/>
+    <SubModule name="tlv5619_u1" Register="17" Lut="17"/>
+    <SubModule name="chirp_gen_u1" Register="938" Lut="1195">
+        <SubModule name="dac_sampling_nco_u1" Register="5" Lut="3"/>
+        <SubModule name="baud_rate_nco_u1" Register="33" Alu="30" Lut="1"/>
+    </SubModule>
+    <SubModule name="rom_non_linear_mapper_u1" Register="2" Lut="9" Bsram="3"/>
+</Module>

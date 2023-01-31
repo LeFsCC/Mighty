@@ -1,0 +1,10 @@
+-d E:\projects_fpga\21001\21001_FPGA_DAC_V2\chrip_linear\impl\gwsynthesis\TEST_FPGA_LED.vg
+-p GW1N-9C-QFN48-6
+-pn GW1N-UV9QN48C6/I5
+-cst E:\projects_fpga\21001\21001_FPGA_DAC_V2\chrip_linear\src\TEST_FPGA_LED.cst
+-cfg E:\projects_fpga\21001\21001_FPGA_DAC_V2\chrip_linear\impl\pnr\device.cfg
+-bit
+-tr
+-ph
+-timing
+-cst_error

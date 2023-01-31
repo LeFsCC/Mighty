@@ -1,0 +1,54 @@
+[
+ {
+  "InstFile" : "E:/projects_fpga/21001/21001_FPGA_DAC_V2/debug_ringOSC/src/TOP.vhd",
+  "InstLine" : 8,
+  "InstName" : "top",
+  "ModuleFile" : "E:/projects_fpga/21001/21001_FPGA_DAC_V2/debug_ringOSC/src/TOP.vhd",
+  "ModuleLine" : 8,
+  "ModuleName" : "top",
+  "SubInsts" : [
+   {
+    "InstFile" : "E:/projects_fpga/21001/21001_FPGA_DAC_V2/debug_ringOSC/src/TOP.vhd",
+    "InstLine" : 76,
+    "InstName" : "Gowin_OSC_u1",
+    "ModuleFile" : "E:/projects_fpga/21001/21001_FPGA_DAC_V2/debug_ringOSC/src/gowin_osc/gowin_osc.vhd",
+    "ModuleLine" : 12,
+    "ModuleName" : "Gowin_OSC"
+   },
+   {
+    "InstFile" : "E:/projects_fpga/21001/21001_FPGA_DAC_V2/debug_ringOSC/src/TOP.vhd",
+    "InstLine" : 97,
+    "InstName" : "tlv5619_u1",
+    "ModuleFile" : "E:/projects_fpga/21001/21001_FPGA_DAC_V2/debug_ringOSC/src/tlv5619.vhd",
+    "ModuleLine" : 11,
+    "ModuleName" : "tlv5619"
+   },
+   {
+    "InstFile" : "E:/projects_fpga/21001/21001_FPGA_DAC_V2/debug_ringOSC/src/TOP.vhd",
+    "InstLine" : 111,
+    "InstName" : "chirp_gen_u1",
+    "ModuleFile" : "E:/projects_fpga/21001/21001_FPGA_DAC_V2/debug_ringOSC/src/chirp_gen.vhd",
+    "ModuleLine" : 12,
+    "ModuleName" : "chirp_gen",
+    "SubInsts" : [
+     {
+      "InstFile" : "E:/projects_fpga/21001/21001_FPGA_DAC_V2/debug_ringOSC/src/chirp_gen.vhd",
+      "InstLine" : 209,
+      "InstName" : "dac_sampling_nco_u1",
+      "ModuleFile" : "E:/projects_fpga/21001/21001_FPGA_DAC_V2/debug_ringOSC/src/chirp_gen_nco.vhd",
+      "ModuleLine" : 12,
+      "ModuleName" : "chirp_gen_nco"
+     },
+     {
+      "InstFile" : "E:/projects_fpga/21001/21001_FPGA_DAC_V2/debug_ringOSC/src/chirp_gen.vhd",
+      "InstLine" : 218,
+      "InstName" : "baud_rate_nco_u1",
+      "ModuleFile" : "E:/projects_fpga/21001/21001_FPGA_DAC_V2/debug_ringOSC/src/chirp_gen_nco.vhd",
+      "ModuleLine" : 12,
+      "ModuleName" : "chirp_gen_nco"
+     }
+    ]
+   }
+  ]
+ }
+]
