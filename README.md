@@ -1,7 +1,7 @@
 # Mighty: Towards Long-Range and High-Throughput Backscatter for Drones
 - Author: XXXXXX
 - Contact: XXXXXX
-- Description: This repo hosts the hardware and software for the implementation of Mighty. Mighty proposes a hardware-software solution to minimize the power consumption of a drone¡¯s video streaming system.
+- Description: This repo hosts the hardware and software for the implementation of Mighty. Mighty proposes a hardware-software solution to minimize the power consumption of a drone's video streaming system.
 
 
 # License
